@@ -1,4 +1,6 @@
 <h1 style="text-align:center">Q - Learning </h1>
+      Date:2018.7.23                                 Summarized  by 王振亚    
+
 # 1. 强化学习
 <div align=center><img src="/Users/Shanks/Desktop/imgs/ref.jpeg"/></div>
  
@@ -120,6 +122,7 @@ Q(1, 5) = R(1, 5) + 0.8 * Max[Q(5, 1), Q(5, 4), Q(5, 5)] = 100 + 0.8 * 0 = 100
 在状态3时，矩阵Q给出的建议是到达状态1或者4，我们任意选择，假设选择了到达状态1；
 在状态1时，矩阵Q建议到达状态5；
 因此，智能体的移动序列是2-3-1-5。
+
 
 # 3.参考链接
  1. <https://blog.csdn.net/u013405574/article/details/50903987>
