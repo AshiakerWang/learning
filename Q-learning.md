@@ -1,11 +1,11 @@
 <h1 style="text-align:center">Q - Learning </h1>
-      Date:2018.7.23                                 Summarized  by 王振亚    
+                                                 Summarized  by 王振亚    
 
 # 1. 强化学习
 <div align=center><img src="/Users/Shanks/Desktop/imgs/ref.jpeg"/></div>
  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;强化学习通常包括**两个实体agent和environment**。两个实体的交互如下，在environment的state $s_t$ 下，agent采取action $a_t$进而得到reward $r_t$ 并进入state $s_{t+1}$。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;强化学习通常包括 **两个实体agent和environment** 。两个实体的交互如下，在environment的state $s_t$ 下，agent采取action $a_t$进而得到reward $r_t$ 并进入state $s_{t+1}$。  
 
 强化学习的问题，通常有如下特点：
 
